@@ -38,11 +38,6 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
-
-        poe {
-            bindings = <&tog 4>;
-            key-positions = <5 6>;
-        };
     };
 
     keymap {
@@ -149,15 +144,6 @@
         &bootloader  &bt BT_NXT  &trans        &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
 &trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
                                  &trans        &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-         &kp N1  &kp Q  &kp W     &kp E      &kp R        &trans  &trans  &trans  &trans  &trans
-         &kp N2  &kp A  &kp S     &kp D      &kp F        &trans  &trans  &trans  &trans  &trans
-&kp TAB  &kp C   &kp P  &kp I     &none      &none        &trans  &trans  &trans  &trans  &trans  &trans
-                        &kp LALT  &kp LCTRL  &kp SPACE    &trans  &trans  &trans
             >;
         };
 
