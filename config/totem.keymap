@@ -156,7 +156,7 @@
             bindings = <
          &kp N1  &kp Q  &kp W     &kp E      &kp R        &trans  &trans  &trans  &trans  &trans
          &kp N2  &kp A  &kp S     &kp D      &kp F        &trans  &trans  &trans  &trans  &trans
-&kp TAB  &kp C   &kp P  &kp I     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp C   &kp P  &kp I     &none      &none        &trans  &trans  &trans  &trans  &trans  &trans
                         &kp LALT  &kp LCTRL  &kp SPACE    &trans  &trans  &trans
             >;
         };
