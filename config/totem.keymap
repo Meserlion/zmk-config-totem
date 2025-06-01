@@ -154,10 +154,10 @@
 
         layer_4 {
             bindings = <
-        &kp N1  &kp Q      &kp W      &kp E      &kp R        &trans  &trans  &trans  &trans  &trans
-        &kp N2  &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                           &trans     &trans     &trans       &trans  &trans  &trans
+         &kp N1  &kp Q      &kp W      &kp E      &kp N1       &trans  &trans  &trans  &none  &none
+         &kp N2  &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp N2       &none   &none   &none   &none  &none
+&kp TAB  &none   &kp C      &kp I      &kp G      &kp P        &none   &none   &none   &none  &none  &none
+                            &none      &none      &kp SPACE    &none   &none   &none
             >;
         };
 
