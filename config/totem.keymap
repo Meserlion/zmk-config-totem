@@ -188,7 +188,7 @@
             bindings = <
         &trans    &trans  &kp SEMI  &trans  &trans    &trans  &trans  &trans  &trans  &kp SQT
         &kp LBKT  &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
+&trans  &none     &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
                           &trans    &trans  &trans    &trans  &trans  &trans
             >;
         };
