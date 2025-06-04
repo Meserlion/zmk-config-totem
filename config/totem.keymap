@@ -88,17 +88,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-<<<<<<< HEAD
          &kp Q  &kp W       &kp E        &kp R        &kp T             &kp Y            &kp U        &kp I        &kp O       &kp P
          &kp A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &mt LEFT_GUI G    &mt RIGHT_GUI H  &mt RSHFT J  &mt RCTRL K  &mt RALT L  &kp O
 &kp ESC  &kp Z  &kp X       &kp C        &kp V        &kp B             &kp N            &kp M        &kp COMMA    &kp DOT     &kp FSLH  &kp BSLH
                             &kp DEL      &lt 1 TAB    &kp SPACE         &kp RET          &lt 2 ESC    &kp BSPC
-=======
-           &kp Q  &kp W       &kp E        &kp R        &kp T             &kp Y            &kp U        &kp I        &kp O       &none
-           &kp A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &mt LEFT_GUI G    &mt RIGHT_GUI H  &mt RSHFT J  &mt RCTRL K  &mt RALT L  &none
-&lt 5 ESC  &kp Z  &kp X       &kp C        &kp V        &kp B             &kp N            &kp M        &kp COMMA    &kp DOT     &kp FSLH  &kp BSLH
-                              &kp DEL      &lt 1 TAB    &lt 6 SPACE       &kp RET          &lt 2 ESC    &kp BSPC
->>>>>>> 4702eebbb8eb236d5affc8b11f529e741f6651f9
             >;
         };
 
