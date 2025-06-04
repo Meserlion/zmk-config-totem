@@ -184,11 +184,12 @@
 
         dan {
             bindings = <
-       &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-       &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-                     &none  &none  &none    &none  &none  &none
+        &trans    &trans  &kp SEMI  &trans  &trans    &trans  &trans  &trans  &trans  &kp SQT
+        &kp LBKT  &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
+                          &trans    &trans  &trans    &trans  &trans  &trans
             >;
+
         };
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
