@@ -139,10 +139,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL     &mt LA(LC(NUMBER_2)) AT_SIGN  &mt LA(LC(HASH)) HASH  &mt LC(LA(DLLR)) DLLR  &kp PRCNT    &kp AMPERSAND  &kp SLASH     &kp RA(U)         &kp SQT     &kp DQT
-        &kp RA(A)    &trans                        &kp RA(S)              &trans                 &trans       &kp C_MUTE     &trans        &trans            &trans      &kp RA(O)
-&trans  &kp RA(F18)  &kp RA(F19)                   &trans                 &trans                 &trans       &kp C_VOL_DN   &kp C_VOL_UP  &kp C_PREV        &kp C_NEXT  &kp BSLH   &trans
-                                                   &trans                 &trans                 &mo 3        &trans         &trans        &kp C_PLAY_PAUSE
+        &kp EXCL     &mt LA(LC(NUMBER_2)) LS(AT_SIGN)  &mt LA(LC(NUMBER_3)) HASH  &mt LC(LA(DLLR)) DLLR  &kp PRCNT    &kp AMPERSAND  &kp FSLH      &kp BACKSLASH     &kp SQT     &kp DQT
+        &kp RA(A)    &trans                            &kp RA(S)                  &trans                 &trans       &kp C_MUTE     &trans        &trans            &trans      &kp RA(O)
+&trans  &kp RA(F18)  &kp RA(F19)                       &trans                     &trans                 &trans       &kp C_VOL_DN   &kp C_VOL_UP  &kp C_PREV        &kp C_NEXT  &kp BSLH   &trans
+                                                       &trans                     &trans                 &mo 3        &trans         &trans        &kp C_PLAY_PAUSE
             >;
         };
 
@@ -165,9 +165,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans     &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &bootloader  &bt BT_NXT  &trans        &trans     &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans       &bt BT_PRV  &trans        &trans     &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+        &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans     &trans    &kp A   &kp F7  &kp F8  &kp F9  &kp F12
+        &bootloader  &bt BT_NXT  &trans        &trans     &trans    &kp O   &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans       &bt BT_PRV  &trans        &trans     &trans    &kp O   &kp F1  &kp F2  &kp F3  &kp F10  &trans
                                  &kp LEFT_ALT  &kp LCTRL  &trans    &trans  &trans  &trans
             >;
         };
