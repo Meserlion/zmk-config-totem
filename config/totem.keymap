@@ -19,6 +19,8 @@
 #define NAV  1
 #define SYM  2
 #define ADJ  3
+#define POE  4
+#define DAN  5
 
 &mt {
     quick-tap-ms = <100>;
@@ -87,7 +89,7 @@
             bindings = <
          &kp Q  &kp W       &kp E        &kp R        &kp T             &kp Y            &kp U        &kp I        &kp O       &kp P
          &kp A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &mt LEFT_GUI G    &mt RIGHT_GUI H  &mt RSHFT J  &mt RCTRL K  &mt RALT L  &kp O
-&kp ESC  &kp Z  &kp X       &kp C        &kp V        &kp B             &kp N            &kp M        &kp COMMA    &kp DOT     &kp FSLH  &kp BSLH
+&lt 5 ESC  &kp Z  &kp X       &kp C        &kp V        &kp B             &kp N            &kp M        &kp COMMA    &kp DOT     &kp FSLH  &kp BSLH
                             &kp DEL      &lt 1 TAB    &kp SPACE         &kp RET          &lt 2 ESC    &kp BSPC
             >;
         };
@@ -171,11 +173,25 @@
         };
 
         poe2 {
+
+            label = "POE";
+
             bindings = <
                   &kp TAB  &kp Q      &kp W      &kp E      &kp N1       &trans  &trans  &trans  &none  &none
                   &kp I    &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp N2       &none   &none   &none   &none  &none
 &kp LEFT_CONTROL  &kt ESC  &kp C      &kp I      &kp P      &kp G        &none   &none   &none   &none  &none  &none
                                       &none      &kp SPACE  &kp SPACE    &none   &none   &none
+            >;
+        };
+
+
+  Danish {
+        label = "DAN";
+            bindings = <
+                 &trans  &trans      &trans      &trans      &trans      &trans  &trans  &trans  &trans  &trans
+                 &trans  &trans      &trans      &trans      &trans      &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans      &trans      &trans      &trans      &trans  &trans  &trans  &trans  &trans  &trans
+                                     &trans      &trans      &trans      &trans  &trans  &trans
             >;
         };
 
