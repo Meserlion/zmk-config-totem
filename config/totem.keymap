@@ -20,8 +20,8 @@
 #define NAV  1
 #define SYM  2
 #define ADJ  3
-#define TVP1 4
-#define TVP2 5
+#define POE 4
+#define DAN 5
 
 &mt {
     quick-tap-ms = <100>;
@@ -174,6 +174,7 @@
         };
 
         poe2 {
+              label = "Poe";
             bindings = <
                   &kp TAB  &kp Q      &kp W      &kp E      &kp N1       &trans  &trans  &trans  &none  &none
                   &kp I    &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp N2       &none   &none   &none   &none  &none
@@ -185,4 +186,14 @@
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
     };
+
+     Danish {
+            label = "DAN";
+            bindings = <
+        &trans    &trans  &kp SEMI  &trans  &trans    &trans  &trans  &trans  &trans  &kp SQT
+        &kp LBKT  &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
+                          &trans    &trans  &trans    &trans  &trans  &trans
+            >;
+        };
 };
