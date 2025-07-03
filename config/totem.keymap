@@ -56,7 +56,7 @@
 
         undo {
             bindings = <&kp LC(Z)>;
-            key-positions = <22 21>;
+            key-positions = <21 20>;
         };
 
         all {
@@ -67,6 +67,11 @@
         fps {
             bindings = <&tog 6>;
             key-positions = <15 16 17>;
+        };
+
+        cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <21 22>;
         };
     };
 
