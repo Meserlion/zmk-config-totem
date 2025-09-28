@@ -205,10 +205,10 @@
 
         poe2 {
             bindings = <
-           &kp TAB  &kp Q      &kp W      &kp E      &kp N1       &trans  &trans  &trans  &none  &none
-           &kp I    &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp N2       &none   &none   &none   &none  &none
-&kp LCTRL  &kt ESC  &kp C      &kp I      &kp P      &kp G        &none   &none   &none   &none  &none  &none
-                               &none      &kp SPACE  &kp SPACE    &none   &none   &none
+           &kp TAB         &kp Q      &kp W      &kp E      &kp N1       &trans  &trans  &trans  &none  &none
+           &kp LEFT_SHIFT  &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp N2       &none   &none   &none   &none  &none
+&kp LCTRL  &kt ESC         &kp C      &kp I      &kp P      &kp G        &none   &none   &none   &none  &none  &none
+                                      &none      &kp SPACE  &kp SPACE    &none   &none   &none
             >;
         };
 
