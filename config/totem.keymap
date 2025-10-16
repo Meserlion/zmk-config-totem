@@ -170,8 +170,8 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL  &mt LA(LC(NUMBER_2)) AT_SIGN  &mt LA(LC(HASH)) HASH  &mt LC(LA(DLLR)) DLLR  &kp PRCNT    &kp RC(AMPS)  &kp RA(AMPERSAND)  &kp RS(NUMBER_0)  &kp KP_EQUAL  &kp RS(PLUS)
-        &trans    &trans                        &kp RA(S)              &trans                 &trans       &kp C_MUTE    &kp C_PP           &kp QUESTION      &trans        &trans
+        &kp EXCL  &mt LA(LC(NUMBER_2)) AT_SIGN  &mt LA(LC(HASH)) HASH  &mt LC(LA(DLLR)) DLLR  &kp PRCNT    &kp LS(N6)    &kp LS(N6)         &kp RS(NUMBER_0)  &kp KP_EQUAL  &kp RS(PLUS)
+        &trans    &trans                        &kp RA(S)              &trans                 &trans       &kp C_MUTE    &kp C_PP           &kp LS(PLUS)      &trans        &trans
 &trans  &trans    &trans                        &trans                 &trans                 &trans       &kp C_VOL_DN  &kp C_VOL_UP       &kp C_PREV        &kp C_NEXT    &kp BSLH      &kp RA(EQUAL)
                                                 &trans                 &trans                 &mo 3        &trans        &trans             &trans
             >;
