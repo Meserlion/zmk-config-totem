@@ -170,10 +170,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL  &mt LA(LC(NUMBER_2)) AT_SIGN  &mt LA(LC(HASH)) HASH  &mt LC(LA(DLLR)) DLLR  &kp PRCNT    &kp LS(N6)    &kp LS(N7)    &kp RS(NUMBER_0)  &kp KP_EQUAL  &kp RS(PLUS)
-        &kp NON_US_HASH &kp LS(NON_US_HASH)             &kp RA(S)              &trans                 &trans       &kp C_MUTE    &kp C_PP      &kp LS(MINUS)      &trans        &trans
-&trans  &trans    &trans                        &trans                 &trans                 &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV        &kp C_NEXT    &kp BSLH      &kp RA(EQUAL)
-                                                &trans                 &trans                 &mo 3        &trans        &trans        &trans
+        &kp EXCL         &mt LA(LC(NUMBER_2)) AT_SIGN  &mt LA(LC(HASH)) HASH  &mt LC(LA(DLLR)) DLLR  &kp PRCNT    &kp LS(N6)    &kp LS(N7)    &kp RS(NUMBER_0)  &kp KP_EQUAL  &kp RS(PLUS)
+        &kp NON_US_HASH  &kp LS(NON_US_HASH)           &kp RA(S)              &trans                 &trans       &kp C_MUTE    &kp C_PP      &kp LS(MINUS)     &trans        &trans
+&trans  &trans           &trans                        &trans                 &trans                 &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV        &kp C_NEXT    &kp BSLH      &kp RA(EQUAL)
+                                                       &trans                 &trans                 &mo 3        &trans        &trans        &trans
             >;
         };
 
@@ -205,10 +205,10 @@
 
         poe2 {
             bindings = <
-           &kp TAB         &kp Q      &kp W      &kp E      &kp N1       &trans  &trans  &trans  &none  &none
-           &kp LEFT_SHIFT  &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp N2       &none   &none   &none   &none  &none
-&kp LCTRL  &kt ESC         &kp C      &kp I      &kp P      &kp G        &none   &none   &none   &none  &none  &none
-                                      &none      &kp SPACE  &kp SPACE    &none   &none   &none
+           &kp TAB         &kp Q      &kp W         &kp E      &kp N1       &trans  &trans  &trans  &none  &none
+           &kp LEFT_SHIFT  &kp LC(Q)  &kp LC(W)     &kp LC(E)  &kp N2       &none   &none   &none   &none  &none
+&kp LCTRL  &kt ESC         &kp C      &kp I         &kp P      &kp G        &none   &none   &none   &none  &none  &none
+                                      &kp LEFT_ALT  &kp SPACE  &kp SPACE    &none   &none   &none
             >;
         };
 
