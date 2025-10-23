@@ -223,7 +223,7 @@
 
         fps {
             bindings = <
-       &kp TAB    &kp Q  &kp W  &kp E  &kp R        &kp O     &kp N7  &kp N8  &kp N9  &kp L
+       &kp TAB    &kp Q  &kp W  &kp E  &kp R        &kp Y     &kp N7  &kp N8  &kp N9  &kp L
        &kp LSHFT  &kp A  &kp S  &kp D  &kp F        &kp LGUI  &kp N4  &kp N5  &kp N6  &none
 &kp J  &kp LCTRL  &kp Z  &kp X  &kp C  &kp V        &kp T     &kp N1  &kp N2  &kp N3  &none  &kp EQUAL
                          &kp M  &kp B  &kp SPACE    &kp LGUI  &kp N0  &none
