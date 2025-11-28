@@ -118,13 +118,12 @@
             //                                     ┃    DEL    ┃  TAB(LT)  ┃    SPC    ┃   ┃   ENTER   ┃  ESC(LT)  ┃   BSPC    ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
-            bindings = <
-         &kp Q  &kp W       &kp E        &kp R        &kp T             &kp Y            &kp U        &kp I        &kp O       &kp P
-         &kp A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &mt LEFT_GUI G    &mt RIGHT_GUI H  &mt RSHFT J  &mt RCTRL K  &mt RALT L  &kp O
-&lt 5 A  &kp Z  &kp X       &kp C        &kp V        &kp B             &kp N            &kp M        &kp COMMA    &kp DOT     &kp AMPS  &kp_dk_BLSH
-                            &kp DEL      &lt 1 TAB    &kp SPACE         &kp RET          &lt 2 ESC    &kp BSPC
-            >;
-        };
+  bindings = <
+&kp Q    &kp W       &kp E       &kp R       &kp T             &kp Y          &kp U       &kp I       &kp O       &kp P
+&kp A    &mt LALT S  &mt LCTRL D &mt LSHFT F &mt LEFT_GUI G    &mt RIGHT_GUI H &mt RSHFT J &mt RCTRL K &mt RALT L  &kp O
+&lt 5 A  &kp Z       &kp X       &kp C       &kp V             &kp B          &kp N       &kp M       &kp COMMA   &kp DOT     &kp LS(FSLH)  &kp_dk_BLSH
+                                 &kp DEL     &lt 1 TAB         &kp SPACE      &kp RET     &lt 2 ESC   &kp BSPC
+>;
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
