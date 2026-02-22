@@ -31,7 +31,7 @@
 };
 
 / {
-                                                        combos {
+                                                            combos {
         compatible = "zmk,combos";
 
         combo_esc {
@@ -81,7 +81,7 @@
         };
     };
 
-                                                        macros {
+                                                            macros {
         kp_dk_BLSH: kp_dk_BLSH {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -121,7 +121,7 @@
         layer_SYM {
             bindings = <
                 &kp EXCL  &mt LA(LC(NUMBER_2)) AT_SIGN  &mt LA(LC(KP_NUMBER_3)) HASH  &mt LC(LA(KP_N4)) DLLR  &kp PRCNT          &kp AMPERSAND    &kp LS(N7)  &kp RS(NUMBER_0)  &kp KP_EQUAL  &kp RS(PLUS)
-         &kp NON_US_HASH           &kp LS(NON_US_HASH)                     &kp RA(S)                  &trans     &trans             &kp C_MUTE      &kp C_PP     &kp LS(MINUS)        &trans        &trans
+         &kp NON_US_HASH           &kp LS(NON_US_HASH)                  &kp RA(RBKT)                  &trans     &trans             &kp C_MUTE      &kp C_PP     &kp LS(MINUS)        &trans        &trans
  &trans           &trans                        &trans                        &trans                  &trans     &trans           &kp C_VOL_DN  &kp C_VOL_UP        &kp C_PREV    &kp C_NEXT      &kp BSLH  &kp RA(EQUAL)
                                                                               &trans                  &trans      &mo 3                 &trans        &trans            &trans
             >;
