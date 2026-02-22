@@ -11,3 +11,7 @@
 #define DK_sqt BACKSLASH 
 #define DK_dqt AT
 #define DK_dllr GRAVE
+// AltGr key combinations (compound)
+#define DK_at LA(LC(NUMBER_2))
+#define DK_pound LA(LC(HASH))
+#define DK_dol LC(LA(DLLR))
