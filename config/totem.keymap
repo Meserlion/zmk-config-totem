@@ -138,10 +138,10 @@
 
         layer_poe2 {
             bindings = <
-              &kp TAB         &kp Q      &kp W      &kp E      &kp N1       &kp V  &trans  &trans  &none  &none
-              &kp LEFT_SHIFT  &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp N2       &none  &none   &none   &none  &none
-&kp LEFT_ALT  &kt ESC         &kp C      &kp I      &kp P      &kp G        &none  &none   &none   &none  &none  &kp EQUAL
-                                         &kp LCTRL  &kp SPACE  &kp SPACE    &none  &none   &none
+              &kp TAB           &kp Q      &kp W             &kp E      &kp N1       &kp V  &trans  &trans  &none  &none
+              &kp LEFT_SHIFT    &kp LC(Q)  &kp LC(W)         &kp LC(E)  &kp N2       &none  &none   &none   &none  &none
+&kp LEFT_ALT  &kp LEFT_CONTROL  &kp C      &kp I             &kp P      &kp G        &none  &none   &none   &none  &none  &kp EQUAL
+                                           &kp LEFT_CONTROL  &kp SPACE  &kp SPACE    &none  &none   &none
             >;
         };
 
