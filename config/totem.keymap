@@ -156,9 +156,9 @@
 
         layer_fps {
             bindings = <
-              &kp TAB    &kp Q  &kp W  &kp E      &kp R        &kp U  &kp Y      &kp N8   &kp N9  &kp L
-              &kp LSHFT  &kp A  &kp S  &kp D      &kp F        &kp I  &kp N4     &kp N5   &kp N6  &kp V
-&kp LEFT_ALT  &kp B      &kp Z  &kp X  &kp C      &kp V        &kp N  &kp N1     &kp N2   &kp N3  &none  &kp EQUAL
+              &kp TAB    &kp Q  &kp W  &kp E      &kp R        &kp T  &kp Y      &kp U    &kp I         &kp L
+              &kp LSHFT  &kp A  &kp S  &kp D      &kp F        &kp G  &kp H      &kp J    &kp NUMBER_2  &kp V
+&kp LEFT_ALT  &kp B      &kp Z  &kp X  &kp C      &kp V        &kp B  &kp N      &kp M    &kp NUMBER_3  &none  &kp EQUAL
                                 &kp M  &kp LCTRL  &kp SPACE    &kp K  &kp LA(N)  &kp F12
             >;
         };
