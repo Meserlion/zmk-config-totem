@@ -31,7 +31,7 @@
 };
 
 / {
-                combos {
+                        combos {
         compatible = "zmk,combos";
 
         combo_esc {
@@ -81,7 +81,7 @@
         };
     };
 
-                macros {
+                        macros {
         kp_dk_BLSH: kp_dk_BLSH {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -158,17 +158,8 @@
             bindings = <
            &kp TAB   &kp Q   &kp W      &kp E      &kp R             &kp Y  &kp N7  &kp N8  &kp N9   &kp L
          &kp LSHFT   &kp A   &kp S      &kp D      &kp F          &kp LGUI  &kp N4  &kp N5  &kp N6   &kp V
-  &kp K      &kp B   &kp Z   &kp X      &kp C      &kp G             &kp T  &kp N1  &kp N2  &kp N3   &none  &kp EQUAL
-                            &tog 8  &kp LCTRL  &kp SPACE          &kp LGUI  &kp N0   &none
-            >;
-        };
-
-        layer_FPS2 {
-            bindings = <
-                 &kp TAB   &kp Q   &kp W   &kp E      &kp R             &kp O  &kp N7  &kp N8  &kp N9   &kp L
-               &kp LSHFT   &kp A   &kp S   &kp D      &kp F          &kp LGUI  &kp N4  &kp N5  &kp N6   &none
- &kp LEFT_ALT  &kp LCTRL   &kp Z   &kp X   &kp C      &kp V             &kp T  &kp N1  &kp N2  &kp N3   &none  &kp EQUAL
-                                   &none   &kp G  &kp SPACE          &kp LGUI  &kp N0   &none
+  &kp K      &kp B   &kp Z   &kp X      &kp C      &kp G             &kp T  &kp N1  &kp N2  &kp N3  &kp F2  &kp EQUAL
+                            &tog 7  &kp LCTRL  &kp SPACE          &kp LGUI  &kp N0   &none
             >;
         };
 
@@ -177,7 +168,7 @@
          &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &kp F7
          &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans   &kp I
  &kp F8  &trans  &trans  &trans  &trans  &kp N5          &trans  &trans  &kp F5  &kp F6   &kp U  &kp KP_N5
-                         &tog 8  &trans  &trans          &trans  &trans  &kp F4
+                         &tog 6  &trans  &trans          &trans  &trans  &kp F4
             >;
         };
 
