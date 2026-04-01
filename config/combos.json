@@ -27,15 +27,6 @@
     "binding": "&tog 6"
   },
   {
-    "name": "fps2",
-    "positions": [
-      26,
-      27,
-      28
-    ],
-    "binding": "&tog 7"
-  },
-  {
     "name": "copy",
     "positions": [
       11,

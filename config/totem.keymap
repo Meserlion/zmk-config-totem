@@ -31,7 +31,7 @@
 };
 
 / {
-                        combos {
+                            combos {
         compatible = "zmk,combos";
 
         combo_esc {
@@ -48,11 +48,6 @@
         fps {
             key-positions = <15 16 17>;
             bindings = <&tog 6>;
-        };
-
-        fps2 {
-            key-positions = <26 27 28>;
-            bindings = <&tog 7>;
         };
 
         copy {
@@ -81,7 +76,7 @@
         };
     };
 
-                        macros {
+                            macros {
         kp_dk_BLSH: kp_dk_BLSH {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
