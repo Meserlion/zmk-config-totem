@@ -58,7 +58,7 @@
                  "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&kp F7",
                  "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",  "&kp I",
        "&kp F8", "&trans", "&trans", "&trans", "&trans", "&kp N5",           "&trans", "&trans", "&kp F5", "&kp F6",  "&kp U", "&kp KP_N5",
-                                     "&tog 8", "&trans", "&trans",           "&trans", "&trans", "&trans"
+                                     "&tog 8", "&trans", "&trans",           "&trans", "&trans", "&kp F4"
     ]
   ]
 }
