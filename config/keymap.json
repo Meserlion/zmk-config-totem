@@ -50,9 +50,9 @@
                                         "&tog 7", "&kp LCTRL", "&kp SPACE",           "&kp LGUI", "&kp N0",  "&none"
     ], [
                  "&trans", "&trans", "&trans", "&trans", "&trans",           "&kp LA(N)", "&kp KP_N8", "&kp KP_N2", "&trans", "&kp F7",
-                 "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",  "&kp I",
-       "&kp F8", "&trans", "&trans", "&trans", "&trans", "&kp N5",           "&trans", "&trans", "&kp F5", "&kp F6",  "&kp U", "&kp KP_N5",
-                                     "&tog 7", "&trans", "&trans",           "&trans", "&trans", "&kp F4"
+                 "&trans", "&trans", "&trans", "&trans", "&trans",              "&trans",    "&trans",    "&trans", "&trans",  "&kp I",
+       "&kp F8", "&trans", "&trans", "&trans", "&trans", "&kp N5",              "&trans",    "&trans",    "&kp F5", "&kp F6",  "&kp U", "&kp KP_N5",
+                                     "&tog 7", "&trans", "&trans",              "&trans",     "&kp Y",    "&kp F4"
     ]
   ]
 }
