@@ -49,9 +49,9 @@
         "&kp K",     "&kp B",  "&kp Z",  "&kp X",     "&kp C",     "&kp G",              "&kp T", "&kp N1", "&kp N2", "&kp N3", "&kp F2", "&kp EQUAL",
                                         "&tog 7", "&kp LCTRL", "&kp SPACE",           "&kp LGUI", "&kp N0",  "&none"
     ], [
-                 "&trans", "&trans", "&trans", "&trans", "&trans",           "&kp LA(N)", "&kp NUMBER_8", "&kp NUMBER_2",  "&kp T", "&kp F7",
-                 "&trans", "&trans", "&trans", "&trans", "&trans",              "&trans",       "&trans",       "&trans", "&trans",  "&kp V",
-       "&kp F8", "&trans", "&trans", "&trans", "&trans",  "&kp G",               "&kp H",        "&kp J",       "&kp F5", "&kp F6",  "&kp TAB", "&kp KP_N5",
+                 "&trans", "&trans", "&trans", "&trans", "&trans",           "&kp LA(N)", "&kp NUMBER_8", "&kp NUMBER_2",  "&kp T",  "&kp F7",
+                 "&trans", "&trans", "&trans", "&trans", "&trans",              "&trans",       "&trans",       "&trans", "&trans",   "&kp V",
+       "&kp F8", "&trans", "&trans", "&trans", "&trans",  "&kp G",               "&kp H",        "&kp J",       "&kp F5", "&kp F6", "&kp TAB", "&kp KP_N5",
                                      "&tog 7", "&trans", "&trans",              "&trans",        "&kp N",       "&kp F4"
     ]
   ]
